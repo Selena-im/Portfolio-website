@@ -1,0 +1,51 @@
+---
+title: "Résumé"
+---
+
+You can view a PDF version of my résumé [here](Resume.pdf).
+
+# Professional Summary
+
+Results-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.
+
+# Technical Skills
+
+-   **Programming Languages:** R, Python, SQL, etc.\
+-   **Web Technologies:** HTML, CSS/SCSS, JavaScript, Quarto, CMS Platforms, Analytics Tools
+
+# Education
+
+| Degree                                    | Year                                    | College / Department                 | Institution                    |
+|-------------------------------------------|-----------------------------------------|--------------------------------------|--------------------------------|
+| Master of Science, Digital Marketing      | Aug 2024 - Expected Graduation Aug 2025 | Singelyn Graduate School of Business | Cal Poly Pomona                |
+| Bachelor of Business Marketing MAnagement | 2019 - 2023                             | College of Business Administration   | University of Alaska Anchorage |
+
+# Work Experience
+
+### Digital Marketing Specialist, Dave's Hot Chicken
+
+*\[Aug 2024 – Dec 2024\]*
+
+-   Partnered with the marketing team to launch SEO and Google Ads campaigns, targeting Gen Z and MZ audiences.
+-   Collected customer reviews and used CRM data to run A/B tests, track performance, and improve engagement.
+-   Managed lead generation and market segmentation, using Excel to organize outreach and update the customer database.
+
+------------------------------------------------------------------------
+
+### Sales Intern, Bay Specialize Tax service
+
+*\[Apr 2023 – Sep 2023\]*
+
+-   Executed B2B outreach through cold calls and in-person distribution of flyers designed in Canva, driving lead generation.
+
+-   Organized client data, supported sales presentations, and analyzed local markets to help expand the customer base.
+
+------------------------------------------------------------------------
+
+### Web Manager, University of Alaska Anchograge
+
+*\[Jan 2023 – Aug 2023\]*
+
+-   Managed weekly content updates for the main website, Instagram, X (Twitter), and YouTube to ensure brand consistency and audience engagement.
+
+-   Created and distributed email campaigns using Mailchimp, and optimized web content through analytics to improve usability and support stakeholder goals.

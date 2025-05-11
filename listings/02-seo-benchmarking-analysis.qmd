@@ -1,0 +1,78 @@
+---
+title: "SEO Benchmarking Analysis"
+image: "https://placehold.co/600x400?text=SEO+Analysis"
+categories: [SEO, Competitive Analysis, Keyword Research, Digital Strategy, Search Rankings]
+index: 2
+---
+
+## Objective
+
+Boosted Productfolio.com’s visibility and conversions by targeting high-intent, low-competition keywords through SEO and content optimization.
+
+------------------------------------------------------------------------
+
+## Methodology
+
+-   **Independent Variable (IV):** Primary & long-tail keyword targeting\
+-   **Dependent Variable (DV):** SERP ranking position\
+-   **Methods:** A/B testing, regression analysis, Random Forest\
+-   **Tools:** SEMrush, Google Analytics 4 (GA4), Google Search Console
+
+We analyzed 29 keywords currently ranking for Productfolio.com using both a **Linear Regression model** and a **Random Forest algorithm**.
+
+------------------------------------------------------------------------
+
+## Keyword Sample
+
+Here’s a sample of the keywords analyzed, with their SERP position, search volume, and difficulty:
+
+![](images/Screenshot%202025-05-10%20at%2011.01.24%20AM.png)
+
+> Source: SEMrush Position Tracking Tool
+
+------------------------------------------------------------------------
+
+##  Linear Regression Model
+
+We used a multiple regression model to test the influence of log-transformed search volume and keyword difficulty on SERP position. An interaction term was included to assess any combined effect.
+
+**Results:**
+
+![](images/Screenshot 2025-05-10 at 11.01.57 AM.png)
+
+-   Adjusted R²: -0.0035\
+-   p-value: 0.4234\
+-   None of the predictors were statistically significant
+
+> Conclusion: The linear model failed to explain the variation in SERP position.
+
+------------------------------------------------------------------------
+
+## Random Forest Analysis
+
+To account for potential non-linear relationships, we applied a Random Forest model to evaluate variable importance.
+
+![](images/Screenshot 2025-05-10 at 11.02.44 AM.png)
+
+**Findings:** - **Keyword Difficulty** emerged as the most important predictor of SERP rank. - **Search Volume** had limited influence.
+
+> Conclusion: Keyword competition is a more powerful SEO lever than search demand.
+
+------------------------------------------------------------------------
+
+##  Strategic Implications
+
+1.  **Prioritize keywords** with lower competition rather than just high volume.
+2.  **Enhance content** around top-performing, low-difficulty keywords.
+3.  Use **GA4 tracking** to monitor engagement, bounce rates, and conversions post-optimization.
+4.  Apply **schema markup** and **mobile-first design** to boost rankings.
+
+------------------------------------------------------------------------
+
+## Summary
+
+This SEO benchmarking project tested how keyword characteristics influence search visibility. While linear regression revealed no significant relationship, Random Forest analysis identified **Keyword Difficulty** as the dominant predictor of SERP performance.
+
+> Going forward, Productfolio.com should focus its SEO strategy on **low-difficulty, high-intent** keywords to improve visibility and drive sustainable growth.
+
+------------------------------------------------------------------------

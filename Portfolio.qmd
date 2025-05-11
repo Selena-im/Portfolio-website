@@ -1,0 +1,39 @@
+---
+title: "Hi, I'm Seunghee Im"
+---
+
+::: columns
+::: {.column width="30%"}
+![](images/IMG_0340-01.jpeg){style="border-radius: 50%;"}
+:::
+
+::: {.column width="70%" style="padding-left: 3rem;"}
+I'm a detail-oriented Marketing Analyst. I specialize in transforming complex market research and data into clear, engaging, and actionable insights using tools like Google analytics, R Stuio, and Excel.
+:::
+:::
+
+## About Me
+
+I hold a [Master of Science in Digital Marketing]{.highlight} from Cal Poly Pomona.I bring a strong mix of marketing and analytics skills, with experience in strategy, A/B testing, SEO/SEM, and data visualization. Proficient in Excel, R, Python, and web analytics, I turn data into actionable insights. I'm a fast learner, problem solver.
+
+## What I Do
+
+-   **Digital Marketing Campaign:** Plan and execute digital marketing strategies, including SEO and Google Ads, to engage Gen Z and MZ audiences and drive traffic.
+
+-   **A/B Testing CRM Analysis:**Use customer reviews and CRM data to run A/B tests, track engagement, and refine performance across campaigns.
+
+-   **Lead Generation & Outreach:** Generate leads through B2B outreach, flyer distribution, and content updates.
+
+-   **Web & Email Management:** Manage website and social media content, design and distribute Mailchimp campaigns, and use analytics to optimize user experience.
+
+-   **Survey Analysis & Persona Building:** Design surveys in Notion, analyze responses in Excel and R, and use AI tools to build personas and inform product and marketing strategy.
+
+-   **Data Visualization & Reporting**: Translate data into visual insights using R, Excel, and Python, crafting dashboards and reproducible reports for strategic decision making.
+
+## Let's Connect
+
+You can [email me](mailto:seungheeim@cpp.edu) or connect on [LinkedIn](https://www.linkedin.com/in/seunghee-im-3a383a237/).
+
+------------------------------------------------------------------------
+
+*Welcome to my portfolio.*

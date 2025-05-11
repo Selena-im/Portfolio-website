@@ -1,0 +1,93 @@
+---
+title: "Social Media Engagement Analysis"
+categories: [Social Media, Engagement Metrics, Content Strategy, Audience Analysis, Analytics]
+index: 5
+---
+
+#### **Overview**
+
+This analysis examined engagement metrics across multiple social media platforms to identify content trends, audience preferences, and posting strategies that drive performance.
+
+::: columns
+::: {.column width="50%"}
+#### **Learning Outcomes**
+
+-   Aggregate and clean social media data.\
+-   Identify high-performing content formats.\
+-   Understand audience behavior and peak times.\
+-   Support social strategy with data-backed recommendations.\
+-   Visualize results in an executive summary.
+:::
+
+::: {.column width="50%"}
+#### **Key Skills Gained**
+
+-   Social analytics\
+-   Platform metric APIs\
+-   Content performance tracking\
+-   Audience insights\
+-   Strategic planning
+:::
+:::
+
+------------------------------------------------------------------------
+
+### Introduction
+
+This analysis evaluates Productfolio.com’s paid advertising performance in driving impressions and conversions. Using data from Google Ads and Facebook alongside GA4 insights, we compared ad impact with organic and referral traffic to optimize campaign targeting and creative strategy.
+
+------------------------------------------------------------------------
+
+### Descriptive Analytics and Results
+
+**Traffic Source Analysis**\
+Google organic emerged as the top traffic and conversion driver, followed by direct visits. Paid ads (e.g., Google CPC, Facebook Ads) showed fewer overall events but played critical roles across the funnel. Attribution data showed Google CPC peaked at late-stage conversions, while Facebook Ads distributed influence across early, mid, and late funnel stages.
+
+**Attribution Paths Findings**\
+![Facebook Ads Attribution](images/Screenshot%202025-05-10%20at%2011.34.04%20AM.png)\
+*Facebook Ads: 26.73% early, 17.93% mid, 32.04% late*
+
+![Google CPC Attribution](images/Screenshot%202025-05-10%20at%2011.34.17%20AM.png)\
+*Google CPC: 64.35% conversions at late touchpoints*
+
+**Implication:**\
+Google Ads = “closer,” Facebook Ads = full-funnel support
+
+**Attribution Model Comparison**\
+![Attribution Model Table](images/Screenshot%202025-05-10%20at%2011.34.27%20AM.png)\
+- Under last-click, Google CPC’s contribution rose +2.8%\
+- Facebook Ads stayed stable, indicating multi-touch effectiveness
+
+**Recommendation**\
+Use Facebook Ads for awareness and lead nurturing, and Google CPC for retargeting and high-intent conversion capture.
+
+------------------------------------------------------------------------
+
+### Predictive Analytics
+
+We built a linear regression model to predict conversions based on:
+
+\- Ads cost\
+- Impressions\
+- Clicks\
+- Cost per click
+
+**Model Results:**\
+![Predictive Model Output](images/Screenshot%202025-05-10%20at%2011.34.43%20AM.png)\
+- R² = 0.082, Adjusted R² = 0.028\
+- No variables significantly predicted conversions\
+- Ads cost and CPC dropped due to multicollinearity
+
+**Conclusion:**\
+The model lacks predictive power. Future improvements include:
+
+\- Adding categorical variables (e.g., channel type)\
+- Removing redundant predictors\
+- Exploring non-linear models like decision trees\
+- Retraining regularly with updated GA4 data
+
+------------------------------------------------------------------------
+
+### Summary
+
+Organic search leads in volume, while paid ads especially Facebook and Google play essential funnel roles. Attribution modeling confirms complementary roles for paid channels, and early regression modeling highlights the need for enriched feature sets. Recommendations include aligning ad strategy to funnel stage and refining models for better predictive accuracy.

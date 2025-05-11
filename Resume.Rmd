@@ -1,0 +1,98 @@
+---
+name: Seunghee
+surname: Im
+position: "Digital Marketer"
+phone: +1 (909) 344-2008
+www: yourwebsite.com
+email: "seungheeim@cpp.com"
+linkedin: www.linkedin.com/in/seunghee-im-3a383a237
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::latexcv:
+    theme: classic
+header-includes:
+   - \usepackage{enumitem}
+   - \setlist[itemize]{nosep, left=0pt}
+   - \setlist[enumerate]{nosep, left=0pt}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+if (!requireNamespace(c("tinytex","vitae","tibble"), quietly = TRUE)) {
+  install.packages(c("tinytex","vitae","tibble"))
+}
+
+if (Sys.which("pdflatex") == "" && !tinytex::is_tinytex()) {                    
+  message("► TinyTeX not found – installing")
+  tinytex::install_tinytex()        
+} else {
+  message("✓ LaTeX present – no installation needed.")
+}
+
+library(vitae)
+library(tibble)
+```
+
+# Professional Summary
+
+Detail-oriented Marketing Analyst with expertise in market research, data analysis, and customer insights. Skilled in survey design, data visualization, and translating complex data into actionable strategies using tools like Google Analytics, R Studio, and Excel.
+
+# Technical Skills
+
+-   **Programming Languages:** R,Python, Excel, Data Collection and Visualization, SPSS, Tableau.
+
+-   **Web Technologies:** HTML, CSS/SCSS, Quarto, CMS, Google Analytics, etc.
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ College, ~ Institution,
+  "Master of Science in Digital Marketing", "Aug 2024 – Expected Graduation Aug 2025", "Singelyn Graduate School of Business", "Cal poly Pomona",
+  "Bachelor of Busniss Marketing Management ", "2019 – 2023", "College of Business Administration", "University of Alaska Anchorage"
+) %>%
+  detailed_entries(Degree, Year, College, Institution)
+```
+
+# Work Experience
+
+
+```{r}
+
+library(tibble)
+
+tribble(
+  ~Years, ~Company, ~Duties, ~Title,
+
+  "Aug 2024 – May 2025", "Daves Hot Chicken",
+  list(
+    "Partnered with the marketing team to launch SEO and Google Ads campaigns, targeting Gen Z and MZ audiences.",
+    "Collected customer reviews and used CRM data to run A/B tests, track performance, and improve engagement.",
+    "Managed lead generation and market segmentation, using Excel to organize outreach and update the customer database."
+  ),
+  "Digital Marketing Specialist",
+
+  "Apr 2023 – Sep 2023", "Bay Specialized Tax Service",
+  list(
+    "Executed B2B outreach through cold calls and in-person distribution of flyers designed in Canva, driving lead generation.",
+    "Organized client data, supported sales presentations, and analyzed local markets to help expand the customer base."
+  ),
+  "Sales Intern",
+
+  "Jan 2023 – Aug 2023", "University of Alaska Anchorage",
+  list(
+    "Managed weekly content updates for the main website, Instagram, X (Twitter), and YouTube to ensure brand consistency and audience engagement.",
+    "Created and distributed email campaigns using Mailchimp, and optimized web content through analytics to improve usability and support stakeholder goals."
+  ),
+  "Web Manager"
+) %>%
+  detailed_entries(
+    what = Title,
+    when = Years,
+    with = Company,
+    why = Duties
+  )
+
+
+```

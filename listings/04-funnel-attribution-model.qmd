@@ -1,0 +1,115 @@
+---
+title: "Marketing Funnel Attribution Analysis"
+image: "https://placehold.co/600x400?text=Attribution+Model"
+categories: [Attribution, Traffic Analysis, Funnel Optimization, GA4, Conversion]
+index: 4
+---
+
+##  Introduction
+
+This project analyzes traffic and conversion sources for Productfolio.com using Google Analytics 4 (GA4) data. The objective is to identify which media channels and content types drive the most sessions, conversions, and engagement, informing an improved marketing strategy.
+
+------------------------------------------------------------------------
+
+##  1. Traffic Acquisition Analysis
+
+### Which sources drive the most sessions?
+
+![](images/Screenshot 2025-05-10 at 11.23.57 AM.png)
+
+**Insight:** Google Organic dominates in volume, with Direct and niche referrals (e.g., Bing, trafficpeak.io) contributing modestly. There's room to improve tagging for Direct traffic and expand referral partnerships.
+
+### Which channels yield the most engaged sessions?
+
+![](images/Screenshot 2025-05-10 at 11.24.19 AM.png)
+
+**Insight:** Google Organic also leads in engaged sessions. Remarkably, trafficpeak.io shows a 100% engagement rate, signaling strong audience relevance.
+
+### Which sources drive the most interactions per session?
+
+![](images/Screenshot 2025-05-10 at 11.24.31 AM.png)
+
+**Insight:** Referral-based traffic outperforms, with inobram.atlassian.net averaging 22+ events/session. Productfolio should explore partnerships with high-performing referrers like Poptin and Product Hunt.
+
+------------------------------------------------------------------------
+
+##  2. Landing Page Performance
+
+### Which pages generate the most signups?
+
+![](images/Screenshot 2025-05-10 at 11.24.39 AM.png)
+
+**Insight:** Homepage and blog-driven landing pages like `/21-product-management-frameworks` generate strong signup volumes. A balance of educational and intent-driven entry points works well.
+
+### Which pages are best across the full funnel?
+
+#### Signup Rate
+
+![](images/Screenshot 2025-05-10 at 11.25.10 AM.png)
+
+#### Activation Rate
+
+![](images/Screenshot 2025-05-10 at 11.25.31 AM.png)
+
+#### Setup Completion Rate
+
+![](images/Screenshot 2025-05-10 at 11.25.41 AM.png)
+
+**Insight:** `/definition-of-done` leads consistently across signup, activation, and setup. `/beta-testing` and `/ebook-downloads` gain traction later in the funnel. These pages are valuable models for UX and content.
+
+------------------------------------------------------------------------
+
+##  3. Site Engagement & Behavior Trends
+
+### How does average engagement evolve?
+
+![](images/Screenshot 2025-05-10 at 11.12.19 AM-01.png)
+
+**Insight:** Engagement time remained stable (\~0.5–1 min), with occasional spikes. These spikes are likely tied to campaigns or new releases.
+
+### Are the most visited pages also the most engaging?
+
+![](images/Screenshot 2025-05-10 at 11.11.44 AM-01.png)
+
+**Insight:** No direct correlation—some high-traffic pages have only moderate engagement. High-engagement pages are underexposed.
+
+### Dual-Axis Comparison
+
+![](images/Screenshot 2025-05-10 at 11.11.26 AM-01.png)
+
+**Insight:** Pages like `/janet/autozon/dashboard` have high engagement but low visibility—great candidates for internal promotion.
+
+### How sticky is the product? (DAU/MAU)
+
+**Insight:** Stickiness averages \~0.04, well below the 0.15 industry benchmark. Re-engagement strategies are needed.
+
+------------------------------------------------------------------------
+
+##  4. Ebook Funnel Insights
+
+### Which channels drive ebook submissions?
+
+![](images/Screenshot 2025-05-10 at 11.24.51 AM.png)
+
+**Insight:** Google leads with 89 submissions. Direct traffic and niche sources (e.g., Bing, ChatGPT) contribute but need better attribution via UTM tracking.
+
+### How does ebook engagement compare?
+
+![](images/Screenshot 2025-05-10 at 11.25.10 AM-01.png)
+
+**Insight:** Ebook interactions (CTA → form → download) rank among the most frequent user actions, indicating high interest and conversion potential.
+
+------------------------------------------------------------------------
+
+##  Summary & Recommendations
+
+-   **SEO is critical.** Google Organic is top-performing in every funnel stage.
+-   **Referrals show promise.** Partners like trafficpeak.io and inobram.atlassian.net drive deeper engagement.
+-   **Content strategy matters.** Educational and intent-driven landing pages lead in conversions.
+-   **Stickiness is low.** Strengthen retention with newsletters, remarketing, or onboarding campaigns.
+-   **Promote underexposed gems.** High-engagement pages with low traffic deserve more visibility.
+-   **Ebooks are gold.** Leverage and expand ebook funnels with targeted promotions.
+
+> Use this funnel attribution analysis to prioritize SEO, strengthen partnerships, and fine-tune high-converting pages for greater acquisition and activation success.
+
+------------------------------------------------------------------------

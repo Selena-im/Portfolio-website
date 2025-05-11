@@ -1,0 +1,92 @@
+---
+title: "Customer Segmentation with GA4 Data"
+image: "https://placehold.co/600x400?text=Customer+Segmentation"
+categories: [Segmentation, Marketing Analytics, User Behavior, Funnel Analysis, Data Visualization]
+index: 3
+---
+
+## Introduction
+
+This analysis segments Productfolio’s users into actionable personas using GA4 behavioral data, revealing how different users engage across the funnel to support targeted, intent-driven marketing.
+
+------------------------------------------------------------------------
+
+## Key Behavioral Touch points (GA4 Metrics)
+
+-   **Acquisition Channel:** Organic search, referral, direct
+-   **Content Type Viewed:** Blog, pricing, feature pages
+-   **Engagement:** Session duration, bounce rate, scroll depth
+-   **Conversion Path:** Series of events prior to signup
+
+------------------------------------------------------------------------
+
+## Funnel Analysis for Macro-Conversions
+
+![](images/Screenshot 2025-05-10 at 11.11.01 AM.png)
+
+**Observation:** Out of 343 users who landed on the signup page, only 32 completed the signup—an abandonment rate of 90.7%. This continues through to setup, highlighting significant friction.
+
+> Recommendation: Streamline onboarding for Action Takers and Solution Seekers with simplified forms, tutorials, and progress bars.
+
+------------------------------------------------------------------------
+
+##  Frequency of Key Events
+
+![](images/Screenshot 2025-05-10 at 11.11.26 AM.png)
+
+This chart reveals that while sessions and page views are high, key engagement events like `first_visit` and `user_engagement` are relatively lower.
+
+> Insight: Users are exploring but not consistently progressing especially Researchers. Introduce targeted CTAs and nurture flows.
+
+------------------------------------------------------------------------
+
+## 📄 Top 5 Most Viewed Pages
+
+![](images/Screenshot 2025-05-10 at 11.11.44 AM.png)
+
+Pages like “21 Product Management Frameworks” and “ICE Scoring” bring in significant traffic but lack strong CTAs.
+
+> Action: Personalize these high-traffic pages with intent-specific CTAs and retargeting pixels for nurturing Researchers.
+
+------------------------------------------------------------------------
+
+## Top 5 Pages by Avg. Engagement Time
+
+![](images/Screenshot 2025-05-10 at 11.12.19 AM.png)
+
+Pages with the longest engagement times indicate where users invest time deeply. For example, dashboards and use-case pages show up to 353 seconds.
+
+> Strategy: Use insights from these pages (layout, CTA style, interactivity) to revamp low-engagement sections.
+
+------------------------------------------------------------------------
+
+## Segmentation Results (via K-Means Clustering)
+
+**Cluster 1: The Researcher**\
+- High blog views, low conversions\
+- Enters via organic search\
+- Needs lead nurturing and content sequencing
+
+**Cluster 2: The Solution Seeker**\
+- Visits pricing/comparison pages\
+- Medium engagement, enters via referral\
+- Needs benefit-focused content and demo paths
+
+**Cluster 3: The Action Taker**\
+- Goes straight to pricing/signup\
+- High intent, short sessions\
+- Needs frictionless onboarding and urgency CTAs
+
+------------------------------------------------------------------------
+
+## Summary & Recommendations
+
+-   Personalize campaigns by behavior-driven personas
+-   Optimize high-traffic blogs for Researchers
+-   Guide Solution Seekers with comparison tools and referrals
+-   Simplify on boarding for Action Takers
+-   Improve low-engagement pages using high-performing layouts
+
+> This analysis aligns with Productfolio’s broader goals to enhance acquisition, reduce friction, and tailor experiences based on actual user behavior—not assumptions.
+
+------------------------------------------------------------------------

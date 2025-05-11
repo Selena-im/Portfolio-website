@@ -1,0 +1,68 @@
+---
+title: "Campaign Insights Dashboard"
+categories: [Dashboarding, Marketing Analytics, Data Visualization, Performance Metrics, Customer Insights]
+index: 1
+---
+
+Projects highlight my skill in turning marketing data into actionable strategies that drive results.
+
+## What You’ll Find
+
+-   **Campaign Performance Analysis:** Evaluating the effectiveness of digital marketing efforts using data.
+-   **Data Visualization:** Turning raw datasets into intuitive dashboards and reports.
+-   **Marketing Mix & Attribution:** Exploring how different channels contribute to success.
+-   **Customer & Market Insights:** Using analytics to better understand user behavior and optimize experiences.
+
+------------------------------------------------------------------------
+
+## Productfolio GA4 Acquisition & Engagement Dashboard
+
+We analyzed 12 months of traffic and user behavior data using Google Analytics 4 (GA4) to understand how users discover and interact with Productfolio.
+
+![](images/Screenshot 2025-05-10 at 10.33.12 AM.png)
+
+**Key Highlights:** - 91K active users with steady traffic via organic and direct channels. - Google organic search dominates session sources, validating SEO efforts. - Key engagement channels include “21 Product Management Frameworks” and “ICE Scoring Method” content pages.
+
+------------------------------------------------------------------------
+
+##  User Engagement Analysis
+
+Engagement was measured via session duration, event count, and user stickiness. This helped segment behavior based on frequency and interaction depth.
+
+![](images/Screenshot 2025-05-10 at 10.33.49 AM.png)
+
+**Findings:** - Average session time: 51 seconds. - DAU/MAU retention rate of \~4.1% suggests recurring interest. - Top events: `page_view`, `session_start`, and `user_engagement`.
+
+------------------------------------------------------------------------
+
+##  Ebook Funnel Analysis (Conversion Flow)
+
+The Ebook Funnel tracks users from landing page to download, identifying friction points in lead generation.
+
+![](images/Screenshot 2025-05-10 at 10.34.52 AM.png)
+
+**Conversion Rates:** - 60.7% proceeded to lead form. - 48.6% submitted form. - 88.9% of submitters downloaded the ebook. \> Suggests high interest post-submission but opportunities to optimize form completion.
+
+------------------------------------------------------------------------
+
+## Signup Funnel Performance
+
+The signup flow revealed major abandonment issues post-landing.
+
+![](images/Screenshot 2025-05-10 at 10.35.14 AM.png)
+
+**Conversion Drop-offs:** - Only 8.7% of visitors completed the signup form. - Just 2 users completed setup after activation. \> Indicates friction in onboarding—recommend simplified forms and guided onboarding.
+
+------------------------------------------------------------------------
+
+##  Data Wrangling & Sampling Strategy
+
+To ensure accurate audience insights: - Data cleaning included removing bots, normalizing formats, and handling missing values. - Stratified sampling was used to analyze engagement across company size, user behavior, and demographics. - Feature engineering derived key metrics like conversion rates and micro-conversion triggers.
+
+------------------------------------------------------------------------
+
+##  Summary
+
+This case study exemplifies the power of GA4 in guiding marketing strategy. By analyzing user acquisition, engagement, and conversion trends, we surfaced actionable improvements to increase SaaS product signups and content interaction.
+
+------------------------------------------------------------------------
