@@ -1,0 +1,296 @@
+[
+  {
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "Marketing Analytics",
+    "section": "",
+    "text": "Below are selected projects that highlight my experience applying marketing analytics to real-world challenges. These projects reflect my ability to combine statistical tools, campaign data, and strategic thinking to inform decisions and drive results.\nWhether developing dashboards, analyzing campaign performance, or uncovering insights through SEO and web analytics, each project is rooted in turning complex marketing data into clear, actionable strategies."
+  },
+  {
+    "objectID": "marketing-analytics.html#what-youll-find",
+    "href": "marketing-analytics.html#what-youll-find",
+    "title": "Marketing Analytics",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nCampaign Performance Analysis: Evaluating the effectiveness of digital marketing efforts using data.\nData Visualization: Turning raw datasets into intuitive dashboards and reports.\nMarketing Mix & Attribution: Exploring how different channels contribute to success.\nCustomer & Market Insights: Using analytics to better understand user behavior and optimize experiences."
+  },
+  {
+    "objectID": "strategic-marketing.html",
+    "href": "strategic-marketing.html",
+    "title": "Strategic Marketing",
+    "section": "",
+    "text": "Below are selected projects that showcase my work in strategic marketing, campaign development, and brand management. These examples highlight how I apply leadership, data-informed decision making, and creative direction to drive marketing success."
+  },
+  {
+    "objectID": "strategic-marketing.html#project-title-user-research-persona-driven-strategy-productfolio.com",
+    "href": "strategic-marketing.html#project-title-user-research-persona-driven-strategy-productfolio.com",
+    "title": "Strategic Marketing",
+    "section": "Project Title: User Research & Persona-Driven Strategy – Productfolio.com",
+    "text": "Project Title: User Research & Persona-Driven Strategy – Productfolio.com\nFor this digital marketing optimization project, I led the user research and segmentation strategy for Productfolio, a SaaS product management platform. My goal was to improve user acquisition, engagement, and conversion through behavior-based analysis and persona development using Google Analytics 4 (GA4).\nSkills Demonstrated:\n\nCustomer Segmentation: Used GA4 metrics and K-means clustering to segment users based on engagement and intent.\nPersona Development: Created three key personas—The Researcher, The Solution Seeker, and The Action Taker—to guide personalized marketing.\nFunnel Optimization: Identified a 90.7% drop-off at the sign-up stage and proposed onboarding and CTA enhancements.\nContent Strategy: Analyzed top-performing pages to recommend content alignment and stronger conversion pathways.\nMarketing Analytics: Interpreted behavioral data to drive precision targeting and optimize user journeys across funnel stages.\n\n\nInteractive Dashboard\nBelow is an embedded demonstration of the interactive report:"
+  },
+  {
+    "objectID": "listings/05-social-media-engagement.html",
+    "href": "listings/05-social-media-engagement.html",
+    "title": "Social Media Engagement Analysis",
+    "section": "",
+    "text": "Overview\nThis analysis examined engagement metrics across multiple social media platforms to identify content trends, audience preferences, and posting strategies that drive performance.\n\n\n\n\nLearning Outcomes\n\nAggregate and clean social media data.\n\nIdentify high-performing content formats.\n\nUnderstand audience behavior and peak times.\n\nSupport social strategy with data-backed recommendations.\n\nVisualize results in an executive summary.\n\n\n\n\nKey Skills Gained\n\nSocial analytics\n\nPlatform metric APIs\n\nContent performance tracking\n\nAudience insights\n\nStrategic planning\n\n\n\n\n\n\nIntroduction\nThis analysis evaluates Productfolio.com’s paid advertising performance in driving impressions and conversions. Using data from Google Ads and Facebook alongside GA4 insights, we compared ad impact with organic and referral traffic to optimize campaign targeting and creative strategy.\n\n\n\nDescriptive Analytics and Results\nTraffic Source Analysis\nGoogle organic emerged as the top traffic and conversion driver, followed by direct visits. Paid ads (e.g., Google CPC, Facebook Ads) showed fewer overall events but played critical roles across the funnel. Attribution data showed Google CPC peaked at late-stage conversions, while Facebook Ads distributed influence across early, mid, and late funnel stages.\nAttribution Paths Findings\n\nFacebook Ads: 26.73% early, 17.93% mid, 32.04% late\n\nGoogle CPC: 64.35% conversions at late touchpoints\nImplication:\nGoogle Ads = “closer,” Facebook Ads = full-funnel support\nAttribution Model Comparison\n\n- Under last-click, Google CPC’s contribution rose +2.8%\n- Facebook Ads stayed stable, indicating multi-touch effectiveness\nRecommendation\nUse Facebook Ads for awareness and lead nurturing, and Google CPC for retargeting and high-intent conversion capture.\n\n\n\nPredictive Analytics\nWe built a linear regression model to predict conversions based on:\n- Ads cost\n- Impressions\n- Clicks\n- Cost per click\nModel Results:\n\n- R² = 0.082, Adjusted R² = 0.028\n- No variables significantly predicted conversions\n- Ads cost and CPC dropped due to multicollinearity\nConclusion:\nThe model lacks predictive power. Future improvements include:\n- Adding categorical variables (e.g., channel type)\n- Removing redundant predictors\n- Exploring non-linear models like decision trees\n- Retraining regularly with updated GA4 data\n\n\n\nSummary\nOrganic search leads in volume, while paid ads especially Facebook and Google play essential funnel roles. Attribution modeling confirms complementary roles for paid channels, and early regression modeling highlights the need for enriched feature sets. Recommendations include aligning ad strategy to funnel stage and refining models for better predictive accuracy."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html",
+    "href": "listings/03-customer-segmentation-clustering.html",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "",
+    "text": "This analysis segments Productfolio’s users into actionable personas using GA4 behavioral data, revealing how different users engage across the funnel to support targeted, intent-driven marketing."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#introduction",
+    "href": "listings/03-customer-segmentation-clustering.html#introduction",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "",
+    "text": "This analysis segments Productfolio’s users into actionable personas using GA4 behavioral data, revealing how different users engage across the funnel to support targeted, intent-driven marketing."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#key-behavioral-touch-points-ga4-metrics",
+    "href": "listings/03-customer-segmentation-clustering.html#key-behavioral-touch-points-ga4-metrics",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "Key Behavioral Touch points (GA4 Metrics)",
+    "text": "Key Behavioral Touch points (GA4 Metrics)\n\nAcquisition Channel: Organic search, referral, direct\nContent Type Viewed: Blog, pricing, feature pages\nEngagement: Session duration, bounce rate, scroll depth\nConversion Path: Series of events prior to signup"
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#funnel-analysis-for-macro-conversions",
+    "href": "listings/03-customer-segmentation-clustering.html#funnel-analysis-for-macro-conversions",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "Funnel Analysis for Macro-Conversions",
+    "text": "Funnel Analysis for Macro-Conversions\n\nObservation: Out of 343 users who landed on the signup page, only 32 completed the signup—an abandonment rate of 90.7%. This continues through to setup, highlighting significant friction.\n\nRecommendation: Streamline onboarding for Action Takers and Solution Seekers with simplified forms, tutorials, and progress bars."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#frequency-of-key-events",
+    "href": "listings/03-customer-segmentation-clustering.html#frequency-of-key-events",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "Frequency of Key Events",
+    "text": "Frequency of Key Events\n\nThis chart reveals that while sessions and page views are high, key engagement events like first_visit and user_engagement are relatively lower.\n\nInsight: Users are exploring but not consistently progressing especially Researchers. Introduce targeted CTAs and nurture flows."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#top-5-most-viewed-pages",
+    "href": "listings/03-customer-segmentation-clustering.html#top-5-most-viewed-pages",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "📄 Top 5 Most Viewed Pages",
+    "text": "📄 Top 5 Most Viewed Pages\n\nPages like “21 Product Management Frameworks” and “ICE Scoring” bring in significant traffic but lack strong CTAs.\n\nAction: Personalize these high-traffic pages with intent-specific CTAs and retargeting pixels for nurturing Researchers."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#top-5-pages-by-avg.-engagement-time",
+    "href": "listings/03-customer-segmentation-clustering.html#top-5-pages-by-avg.-engagement-time",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "Top 5 Pages by Avg. Engagement Time",
+    "text": "Top 5 Pages by Avg. Engagement Time\n\nPages with the longest engagement times indicate where users invest time deeply. For example, dashboards and use-case pages show up to 353 seconds.\n\nStrategy: Use insights from these pages (layout, CTA style, interactivity) to revamp low-engagement sections."
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#segmentation-results-via-k-means-clustering",
+    "href": "listings/03-customer-segmentation-clustering.html#segmentation-results-via-k-means-clustering",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "Segmentation Results (via K-Means Clustering)",
+    "text": "Segmentation Results (via K-Means Clustering)\nCluster 1: The Researcher\n- High blog views, low conversions\n- Enters via organic search\n- Needs lead nurturing and content sequencing\nCluster 2: The Solution Seeker\n- Visits pricing/comparison pages\n- Medium engagement, enters via referral\n- Needs benefit-focused content and demo paths\nCluster 3: The Action Taker\n- Goes straight to pricing/signup\n- High intent, short sessions\n- Needs frictionless onboarding and urgency CTAs"
+  },
+  {
+    "objectID": "listings/03-customer-segmentation-clustering.html#summary-recommendations",
+    "href": "listings/03-customer-segmentation-clustering.html#summary-recommendations",
+    "title": "Customer Segmentation with GA4 Data",
+    "section": "Summary & Recommendations",
+    "text": "Summary & Recommendations\n\nPersonalize campaigns by behavior-driven personas\nOptimize high-traffic blogs for Researchers\nGuide Solution Seekers with comparison tools and referrals\nSimplify on boarding for Action Takers\nImprove low-engagement pages using high-performing layouts\n\n\nThis analysis aligns with Productfolio’s broader goals to enhance acquisition, reduce friction, and tailor experiences based on actual user behavior—not assumptions."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "You can view a PDF version of my résumé here.\n\nProfessional Summary\nResults-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.\n\n\nTechnical Skills\n\nProgramming Languages: R, Python, SQL, etc.\n\nWeb Technologies: HTML, CSS/SCSS, JavaScript, Quarto, CMS Platforms, Analytics Tools\n\n\n\nEducation\n\n\n\n\n\n\n\n\n\nDegree\nYear\nCollege / Department\nInstitution\n\n\n\n\nMaster of Science, Digital Marketing\nAug 2024 - Expected Graduation Aug 2025\nSingelyn Graduate School of Business\nCal Poly Pomona\n\n\nBachelor of Business Marketing MAnagement\n2019 - 2023\nCollege of Business Administration\nUniversity of Alaska Anchorage\n\n\n\n\n\nWork Experience\n\nDigital Marketing Specialist, Dave’s Hot Chicken\n[Aug 2024 – Dec 2024]\n\nPartnered with the marketing team to launch SEO and Google Ads campaigns, targeting Gen Z and MZ audiences.\nCollected customer reviews and used CRM data to run A/B tests, track performance, and improve engagement.\nManaged lead generation and market segmentation, using Excel to organize outreach and update the customer database.\n\n\n\n\nSales Intern, Bay Specialize Tax service\n[Apr 2023 – Sep 2023]\n\nExecuted B2B outreach through cold calls and in-person distribution of flyers designed in Canva, driving lead generation.\nOrganized client data, supported sales presentations, and analyzed local markets to help expand the customer base.\n\n\n\n\nWeb Manager, University of Alaska Anchograge\n[Jan 2023 – Aug 2023]\n\nManaged weekly content updates for the main website, Instagram, X (Twitter), and YouTube to ensure brand consistency and audience engagement.\nCreated and distributed email campaigns using Mailchimp, and optimized web content through analytics to improve usability and support stakeholder goals."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html",
+    "href": "listings/02-seo-benchmarking-analysis.html",
+    "title": "SEO Benchmarking Analysis",
+    "section": "",
+    "text": "Boosted Productfolio.com’s visibility and conversions by targeting high-intent, low-competition keywords through SEO and content optimization."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#objective",
+    "href": "listings/02-seo-benchmarking-analysis.html#objective",
+    "title": "SEO Benchmarking Analysis",
+    "section": "",
+    "text": "Boosted Productfolio.com’s visibility and conversions by targeting high-intent, low-competition keywords through SEO and content optimization."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#methodology",
+    "href": "listings/02-seo-benchmarking-analysis.html#methodology",
+    "title": "SEO Benchmarking Analysis",
+    "section": "Methodology",
+    "text": "Methodology\n\nIndependent Variable (IV): Primary & long-tail keyword targeting\n\nDependent Variable (DV): SERP ranking position\n\nMethods: A/B testing, regression analysis, Random Forest\n\nTools: SEMrush, Google Analytics 4 (GA4), Google Search Console\n\nWe analyzed 29 keywords currently ranking for Productfolio.com using both a Linear Regression model and a Random Forest algorithm."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#keyword-sample",
+    "href": "listings/02-seo-benchmarking-analysis.html#keyword-sample",
+    "title": "SEO Benchmarking Analysis",
+    "section": "Keyword Sample",
+    "text": "Keyword Sample\nHere’s a sample of the keywords analyzed, with their SERP position, search volume, and difficulty:\n\n\nSource: SEMrush Position Tracking Tool"
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#linear-regression-model",
+    "href": "listings/02-seo-benchmarking-analysis.html#linear-regression-model",
+    "title": "SEO Benchmarking Analysis",
+    "section": "Linear Regression Model",
+    "text": "Linear Regression Model\nWe used a multiple regression model to test the influence of log-transformed search volume and keyword difficulty on SERP position. An interaction term was included to assess any combined effect.\nResults:\n\n\nAdjusted R²: -0.0035\n\np-value: 0.4234\n\nNone of the predictors were statistically significant\n\n\nConclusion: The linear model failed to explain the variation in SERP position."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#random-forest-analysis",
+    "href": "listings/02-seo-benchmarking-analysis.html#random-forest-analysis",
+    "title": "SEO Benchmarking Analysis",
+    "section": "Random Forest Analysis",
+    "text": "Random Forest Analysis\nTo account for potential non-linear relationships, we applied a Random Forest model to evaluate variable importance.\n\nFindings: - Keyword Difficulty emerged as the most important predictor of SERP rank. - Search Volume had limited influence.\n\nConclusion: Keyword competition is a more powerful SEO lever than search demand."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#strategic-implications",
+    "href": "listings/02-seo-benchmarking-analysis.html#strategic-implications",
+    "title": "SEO Benchmarking Analysis",
+    "section": "Strategic Implications",
+    "text": "Strategic Implications\n\nPrioritize keywords with lower competition rather than just high volume.\nEnhance content around top-performing, low-difficulty keywords.\nUse GA4 tracking to monitor engagement, bounce rates, and conversions post-optimization.\nApply schema markup and mobile-first design to boost rankings."
+  },
+  {
+    "objectID": "listings/02-seo-benchmarking-analysis.html#summary",
+    "href": "listings/02-seo-benchmarking-analysis.html#summary",
+    "title": "SEO Benchmarking Analysis",
+    "section": "Summary",
+    "text": "Summary\nThis SEO benchmarking project tested how keyword characteristics influence search visibility. While linear regression revealed no significant relationship, Random Forest analysis identified Keyword Difficulty as the dominant predictor of SERP performance.\n\nGoing forward, Productfolio.com should focus its SEO strategy on low-difficulty, high-intent keywords to improve visibility and drive sustainable growth."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html",
+    "href": "listings/04-funnel-attribution-model.html",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "",
+    "text": "This project analyzes traffic and conversion sources for Productfolio.com using Google Analytics 4 (GA4) data. The objective is to identify which media channels and content types drive the most sessions, conversions, and engagement, informing an improved marketing strategy."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html#introduction",
+    "href": "listings/04-funnel-attribution-model.html#introduction",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "",
+    "text": "This project analyzes traffic and conversion sources for Productfolio.com using Google Analytics 4 (GA4) data. The objective is to identify which media channels and content types drive the most sessions, conversions, and engagement, informing an improved marketing strategy."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html#traffic-acquisition-analysis",
+    "href": "listings/04-funnel-attribution-model.html#traffic-acquisition-analysis",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "1. Traffic Acquisition Analysis",
+    "text": "1. Traffic Acquisition Analysis\n\nWhich sources drive the most sessions?\n\nInsight: Google Organic dominates in volume, with Direct and niche referrals (e.g., Bing, trafficpeak.io) contributing modestly. There’s room to improve tagging for Direct traffic and expand referral partnerships.\n\n\nWhich channels yield the most engaged sessions?\n\nInsight: Google Organic also leads in engaged sessions. Remarkably, trafficpeak.io shows a 100% engagement rate, signaling strong audience relevance.\n\n\nWhich sources drive the most interactions per session?\n\nInsight: Referral-based traffic outperforms, with inobram.atlassian.net averaging 22+ events/session. Productfolio should explore partnerships with high-performing referrers like Poptin and Product Hunt."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html#landing-page-performance",
+    "href": "listings/04-funnel-attribution-model.html#landing-page-performance",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "2. Landing Page Performance",
+    "text": "2. Landing Page Performance\n\nWhich pages generate the most signups?\n\nInsight: Homepage and blog-driven landing pages like /21-product-management-frameworks generate strong signup volumes. A balance of educational and intent-driven entry points works well.\n\n\nWhich pages are best across the full funnel?\n\nSignup Rate\n\n\n\nActivation Rate\n\n\n\nSetup Completion Rate\n\nInsight: /definition-of-done leads consistently across signup, activation, and setup. /beta-testing and /ebook-downloads gain traction later in the funnel. These pages are valuable models for UX and content."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html#site-engagement-behavior-trends",
+    "href": "listings/04-funnel-attribution-model.html#site-engagement-behavior-trends",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "3. Site Engagement & Behavior Trends",
+    "text": "3. Site Engagement & Behavior Trends\n\nHow does average engagement evolve?\n\nInsight: Engagement time remained stable (~0.5–1 min), with occasional spikes. These spikes are likely tied to campaigns or new releases.\n\n\nAre the most visited pages also the most engaging?\n\nInsight: No direct correlation—some high-traffic pages have only moderate engagement. High-engagement pages are underexposed.\n\n\nDual-Axis Comparison\n\nInsight: Pages like /janet/autozon/dashboard have high engagement but low visibility—great candidates for internal promotion.\n\n\nHow sticky is the product? (DAU/MAU)\nInsight: Stickiness averages ~0.04, well below the 0.15 industry benchmark. Re-engagement strategies are needed."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html#ebook-funnel-insights",
+    "href": "listings/04-funnel-attribution-model.html#ebook-funnel-insights",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "4. Ebook Funnel Insights",
+    "text": "4. Ebook Funnel Insights\n\nWhich channels drive ebook submissions?\n\nInsight: Google leads with 89 submissions. Direct traffic and niche sources (e.g., Bing, ChatGPT) contribute but need better attribution via UTM tracking.\n\n\nHow does ebook engagement compare?\n\nInsight: Ebook interactions (CTA → form → download) rank among the most frequent user actions, indicating high interest and conversion potential."
+  },
+  {
+    "objectID": "listings/04-funnel-attribution-model.html#summary-recommendations",
+    "href": "listings/04-funnel-attribution-model.html#summary-recommendations",
+    "title": "Marketing Funnel Attribution Analysis",
+    "section": "Summary & Recommendations",
+    "text": "Summary & Recommendations\n\nSEO is critical. Google Organic is top-performing in every funnel stage.\nReferrals show promise. Partners like trafficpeak.io and inobram.atlassian.net drive deeper engagement.\nContent strategy matters. Educational and intent-driven landing pages lead in conversions.\nStickiness is low. Strengthen retention with newsletters, remarketing, or onboarding campaigns.\nPromote underexposed gems. High-engagement pages with low traffic deserve more visibility.\nEbooks are gold. Leverage and expand ebook funnels with targeted promotions.\n\n\nUse this funnel attribution analysis to prioritize SEO, strengthen partnerships, and fine-tune high-converting pages for greater acquisition and activation success."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html",
+    "href": "listings/01-campaign-insights-dashboard.html",
+    "title": "Campaign Insights Dashboard",
+    "section": "",
+    "text": "Projects highlight my skill in turning marketing data into actionable strategies that drive results."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#what-youll-find",
+    "href": "listings/01-campaign-insights-dashboard.html#what-youll-find",
+    "title": "Campaign Insights Dashboard",
+    "section": "What You’ll Find",
+    "text": "What You’ll Find\n\nCampaign Performance Analysis: Evaluating the effectiveness of digital marketing efforts using data.\nData Visualization: Turning raw datasets into intuitive dashboards and reports.\nMarketing Mix & Attribution: Exploring how different channels contribute to success.\nCustomer & Market Insights: Using analytics to better understand user behavior and optimize experiences."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#productfolio-ga4-acquisition-engagement-dashboard",
+    "href": "listings/01-campaign-insights-dashboard.html#productfolio-ga4-acquisition-engagement-dashboard",
+    "title": "Campaign Insights Dashboard",
+    "section": "Productfolio GA4 Acquisition & Engagement Dashboard",
+    "text": "Productfolio GA4 Acquisition & Engagement Dashboard\nWe analyzed 12 months of traffic and user behavior data using Google Analytics 4 (GA4) to understand how users discover and interact with Productfolio.\n\nKey Highlights: - 91K active users with steady traffic via organic and direct channels. - Google organic search dominates session sources, validating SEO efforts. - Key engagement channels include “21 Product Management Frameworks” and “ICE Scoring Method” content pages."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#user-engagement-analysis",
+    "href": "listings/01-campaign-insights-dashboard.html#user-engagement-analysis",
+    "title": "Campaign Insights Dashboard",
+    "section": "User Engagement Analysis",
+    "text": "User Engagement Analysis\nEngagement was measured via session duration, event count, and user stickiness. This helped segment behavior based on frequency and interaction depth.\n\nFindings: - Average session time: 51 seconds. - DAU/MAU retention rate of ~4.1% suggests recurring interest. - Top events: page_view, session_start, and user_engagement."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#ebook-funnel-analysis-conversion-flow",
+    "href": "listings/01-campaign-insights-dashboard.html#ebook-funnel-analysis-conversion-flow",
+    "title": "Campaign Insights Dashboard",
+    "section": "Ebook Funnel Analysis (Conversion Flow)",
+    "text": "Ebook Funnel Analysis (Conversion Flow)\nThe Ebook Funnel tracks users from landing page to download, identifying friction points in lead generation.\n\nConversion Rates: - 60.7% proceeded to lead form. - 48.6% submitted form. - 88.9% of submitters downloaded the ebook. &gt; Suggests high interest post-submission but opportunities to optimize form completion."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#signup-funnel-performance",
+    "href": "listings/01-campaign-insights-dashboard.html#signup-funnel-performance",
+    "title": "Campaign Insights Dashboard",
+    "section": "Signup Funnel Performance",
+    "text": "Signup Funnel Performance\nThe signup flow revealed major abandonment issues post-landing.\n\nConversion Drop-offs: - Only 8.7% of visitors completed the signup form. - Just 2 users completed setup after activation. &gt; Indicates friction in onboarding—recommend simplified forms and guided onboarding."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#data-wrangling-sampling-strategy",
+    "href": "listings/01-campaign-insights-dashboard.html#data-wrangling-sampling-strategy",
+    "title": "Campaign Insights Dashboard",
+    "section": "Data Wrangling & Sampling Strategy",
+    "text": "Data Wrangling & Sampling Strategy\nTo ensure accurate audience insights: - Data cleaning included removing bots, normalizing formats, and handling missing values. - Stratified sampling was used to analyze engagement across company size, user behavior, and demographics. - Feature engineering derived key metrics like conversion rates and micro-conversion triggers."
+  },
+  {
+    "objectID": "listings/01-campaign-insights-dashboard.html#summary",
+    "href": "listings/01-campaign-insights-dashboard.html#summary",
+    "title": "Campaign Insights Dashboard",
+    "section": "Summary",
+    "text": "Summary\nThis case study exemplifies the power of GA4 in guiding marketing strategy. By analyzing user acquisition, engagement, and conversion trends, we surfaced actionable improvements to increase SaaS product signups and content interaction."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Seunghee Im",
+    "section": "",
+    "text": "I’m a detail-oriented Marketing Analyst. I specialize in transforming complex market research and data into clear, engaging, and actionable insights using tools like Google analytics, R Stuio, and Excel."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Hi, I’m Seunghee Im",
+    "section": "About Me",
+    "text": "About Me\nI hold a Master of Science in Digital Marketing from Cal Poly Pomona.I bring a strong mix of marketing and analytics skills, with experience in strategy, A/B testing, SEO/SEM, and data visualization. Proficient in Excel, R, Python, and web analytics, I turn data into actionable insights. I’m a fast learner, problem solver."
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Hi, I’m Seunghee Im",
+    "section": "What I Do",
+    "text": "What I Do\n\nDigital Marketing Campaign: Plan and execute digital marketing strategies, including SEO and Google Ads, to engage Gen Z and MZ audiences and drive traffic.\nA/B Testing CRM Analysis:Use customer reviews and CRM data to run A/B tests, track engagement, and refine performance across campaigns.\nLead Generation & Outreach: Generate leads through B2B outreach, flyer distribution, and content updates.\nWeb & Email Management: Manage website and social media content, design and distribute Mailchimp campaigns, and use analytics to optimize user experience.\nSurvey Analysis & Persona Building: Design surveys in Notion, analyze responses in Excel and R, and use AI tools to build personas and inform product and marketing strategy.\nData Visualization & Reporting: Translate data into visual insights using R, Excel, and Python, crafting dashboards and reproducible reports for strategic decision making."
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Hi, I’m Seunghee Im",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nYou can email me or connect on LinkedIn.\n\nWelcome to my portfolio."
+  }
+]

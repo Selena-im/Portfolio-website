@@ -5,7 +5,7 @@ listing:
   type: grid
   categories: true
   sort: 
-     "index desc"
+    - "index desc"
 ---
 
 Below are selected projects that highlight my experience applying marketing analytics to real-world challenges. These projects reflect my ability to combine statistical tools, campaign data, and strategic thinking to inform decisions and drive results.

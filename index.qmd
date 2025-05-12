@@ -4,7 +4,7 @@ title: "Hi, I'm Seunghee Im"
 
 ::: columns
 ::: {.column width="30%"}
-![](images/IMG_0340-01.jpeg){style="border-radius: 50%;"}
+![](images/IMG_0340.jpeg){style="border-radius: 50%;"}
 :::
 
 ::: {.column width="70%" style="padding-left: 3rem;"}
